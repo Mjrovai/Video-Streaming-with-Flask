@@ -1,0 +1,25 @@
+<!--
+   index.html
+   
+-->
+
+<html>
+  <head>
+    <title>MJRoBot Lab Live Streaming</title>
+    <link rel="stylesheet" href='../static/style.css'/>
+    <style>
+		body {
+			text-align: center;
+		}
+    </style>
+  </head>
+  <body>
+    <h1>MJRoBot Lab Live Streaming</h1>
+    <h3><img src="{{ url_for('video_feed') }}" width="80%"></h3>
+    <h3>{{ time }}</h3>
+    <hr>
+	<h3> Return to main page ==> <a href="/"class="button">RETURN</a></h3>	
+	<hr>
+	<p> @2018 Developed by MJRoBot.org</p>
+  </body>
+</html>
